@@ -18,14 +18,21 @@ Autores:
 
 * `notebooks` incluye los notebooks que estamos utilizando como material durante las clases. En particular, un notebook tendrá el siguiente nombre: `<BLOQUE>_<N>_<DESCRIPCION>.ipynb`, donde `<BLOQUE>` será el bloque del temario que tiene relación con el notebook, `<N>` es simplemente un ordinal y `<DESCRIPCION>` da nombre al notebook. Por ejemplo, `3_1_arboles.ipynb` es el primer notebook del bloque 3.
 
-## Temario
+* **Bloque 1: Introducción** [2025-05-24]
+  * Notebook *1_1_intro*. Introducción al curso. Ejercicios sencillos de numpy y broadcasting.
 
-* **Bloque 1: Introducción a numpy: Repaso de Broadcasting** [2025-05-24]
-  
-* **Bloque 2: La neurona artificial: Regresión Lineal y Regresión Logística mediante descenso por gradiente** [2025-05-24]
+* **Bloque 2: Regresión Lineal y Logística. Descenso por gradiente** [2025-05-24, 2025-05-28 y 2025-05-29]
+* [2025-05-24]
+  * Notebook *2_1_linear_regression*. Implementación manual de una regresión lineal mediante descenso por gradiente. Uso de la librería SKlearn. Modelo CAPM con regresión lineal.
+* [2025-05-29]
+  * Notebook *2_2_logistic_regression*. Implementación manual de una regresión logística mediante descenso por gradiente. Uso de PCA para reducción de dimensionalidad. Iris dataset como ejemplo One-vs-Rest. Modelo lineal no separa espacio no lineal. Transformación manual del espacio para hacerlo separable linealmente.
+ 
+* **Bloque 3: Red Neuronal Artificial. Backpropagation** [2025-05-30]
+  * Notebook *3_1_red_neuronal_completa*. Implementación manual de una red neuronal completa, incluyendo Backpropagation. Ejercicios de regresión y clasificación con 1 y 2 capas.
 
-* **Bloque 3: Redes neuronales artificiales** [2025-05-??]
+* **Bloque 4: Tensorflow** [2025-05-31]
+  * Notebook *4_1_intro_tensorflow*. Implementación manual de regresión lineal y logística y una red neuronal multicapa con tensorflow.
+  * Notebook *4_2_problema_multiclase*. Implementación manual de un modelo One-vs-Rest y una red neuronal multiclase con Softmax usando tensorflow.
 
-* **Bloque 4: Tensorflow** [2025-??-??]
+* **Bloque 5: Keras** [2025-06-04 y 2025-06-05]
 
-* **Bloque 5: Keras** [2025-??-??]
